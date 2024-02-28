@@ -19,10 +19,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- header -->
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-          <a class="navbar-brand fw-bold fs-2" href="#">Wonderful Blog</a>
+          <a class="navbar-brand fw-bold fs-4" href="#">Wonderful Blog</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -37,23 +38,109 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active fs-5" aria-current="page" href="#"
-                  >Home</a
-                >
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link fs-5" href="#">blogs</a>
+                <a class="nav-link" href="#">blogs</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5" href="#">portfolio</a>
+                <a class="nav-link" href="#">portfolio</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+    <!-- carousel -->
 
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/road.jpg"
+            class="d-block w-100 image_resize"
+            alt="image of a tarmac road"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome To My Coding Blog</h2>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/success.jpg"
+            class="d-block w-100 image_resize"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Second slide label</h2>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/imposter.jpg"
+            class="d-block w-100 image_resize"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Third slide label</h2>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- cards -->
+    <div class="container my-4">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
