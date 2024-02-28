@@ -53,262 +53,298 @@
       </nav>
     </header>
     <!-- carousel -->
+    <section id="carousel" class="pb-5">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/road.jpg"
+              class="d-block w-100 image_resize"
+              height="500"
+              alt="image of a tarmac road"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Welcome To My Coding Blog</h2>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/success.jpg"
+              class="d-block w-100 image_resize"
+              height="500"
+              alt="image of a climber successfully reached at a high point"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Second slide label</h2>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/imposter.jpg"
+              class="d-block w-100 image_resize"
+              height="500"
+              alt="image of a person having imposter sydrome"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Third slide label</h2>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
 
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="./images/road.jpg"
-            class="d-block w-100 image_resize"
-            height="500"
-            alt="image of a tarmac road"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h2>Welcome To My Coding Blog</h2>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="./images/success.jpg"
-            class="d-block w-100 image_resize"
-            height="500"
-            alt="image of a climber successfully reached at a high point"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h2>Second slide label</h2>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="./images/imposter.jpg"
-            class="d-block w-100 image_resize"
-            height="500"
-            alt="image of a person having imposter sydrome"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h2>Third slide label</h2>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
     <!-- cards -->
-    <div class="container my-4">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            <img
-              src="./images/programming.webp"
-              class="bd-placeholder-img card-img-top image_resize"
-              width="100%"
-              height="225"
-              alt="programming image"
-            />
-            <div class="card-body">
-              <p class="card-text">
-                How I ventured into the programming world Lorem ipsum dolor sit
-                amet, . Commodi, maiores.
-              </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-secondary"
-                  >
-                    Read more
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-secondary"
-                  >
-                    Edit
-                  </button>
+    <section id="cards" class="pb-1">
+      <div class="container my-2">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                src="./images/programming.webp"
+                class="bd-placeholder-img card-img-top image_resize"
+                width="100%"
+                height="225"
+                alt="programming image"
+              />
+              <div class="card-body">
+                <h5 class="card-text">The Genesis</h5>
+                <p class="card-text">
+                  How I ventured into the programming world Lorem ipsum dolor
+                  sit amet, . Commodi, maiores.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Read more
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button>
+                  </div>
+                  <small class="text-muted">6 mins</small>
                 </div>
-                <small class="text-muted">6 mins</small>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img
-              src="./images/setup.jpeg"
-              class="bd-placeholder-img card-img-top image_resize"
-              width="100%"
-              height="225"
-              alt="programming desk setup image"
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit. Commodi, maiores.
-              </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-secondary"
-                  >
-                    Read more
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-secondary"
-                  >
-                    Edit
-                  </button>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                src="./images/setup.jpeg"
+                class="bd-placeholder-img card-img-top image_resize"
+                width="100%"
+                height="225"
+                alt="programming desk setup image"
+              />
+              <div class="card-body">
+                <h5 class="card-text">Programming Set-up</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing. Lorem
+                  ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
+                  maiores.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Read more
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button>
+                  </div>
+                  <small class="text-muted">5 mins</small>
                 </div>
-                <small class="text-muted">5 mins</small>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img
-              src="./images/imposter.jpeg"
-              class="bd-placeholder-img card-img-top image_resize"
-              width="100%"
-              height="225"
-              alt="image of a person having imposter syndrome"
-            />
-            <div class="card-body">
-              <p class="card-text">
-                What about Imposter Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Commodi, maiores.
-              </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-secondary"
-                  >
-                    Read more
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-secondary"
-                  >
-                    Edit
-                  </button>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                src="./images/imposter.jpeg"
+                class="bd-placeholder-img card-img-top image_resize"
+                width="100%"
+                height="225"
+                alt="image of a person having imposter syndrome"
+              />
+              <div class="card-body">
+                <h5 class="card-text">Dealing With Imposter</h5>
+                <p class="card-text">
+                  What about Imposter Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit. Commodi, maiores.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Read more
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button>
+                  </div>
+                  <small class="text-muted">12 mins</small>
                 </div>
-                <small class="text-muted">12 mins</small>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img
-              src="./images/interview.jpeg"
-              class="bd-placeholder-img card-img-top image_resize"
-              width="100%"
-              height="225"
-              alt="image of an interview taking place"
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit. Commodi, maiores.
-              </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-secondary"
-                  >
-                    Read more
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-secondary"
-                  >
-                    Edit
-                  </button>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                src="./images/interview.jpeg"
+                class="bd-placeholder-img card-img-top image_resize"
+                width="100%"
+                height="225"
+                alt="image of an interview taking place"
+              />
+              <div class="card-body">
+                <h5 class="card-text">Acing Technical Interviews</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit
+                  amet, consectetur adipisicing elit. Commodi, maiores.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Read more
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button>
+                  </div>
+                  <small class="text-muted">10 mins</small>
                 </div>
-                <small class="text-muted">10 mins</small>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img
-              src="./images/tech.png"
-              class="bd-placeholder-img card-img-top image_resize"
-              width="100%"
-              height="225"
-              alt="image of techstacks"
-            />
-            <div class="card-body">
-              <p class="card-text">
-                Technolgies you should consider using Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit. Commodi, maiores.
-              </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-secondary"
-                  >
-                    Read more
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-secondary"
-                  >
-                    Edit
-                  </button>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img
+                src="./images/tech.png"
+                class="bd-placeholder-img card-img-top image_resize"
+                width="100%"
+                height="225"
+                alt="image of techstacks"
+              />
+              <div class="card-body">
+                <h5 class="card-text">Techstacks Preference</h5>
+                <p class="card-text">
+                  Technolgies you should consider using Lorem ipsum dolor sit
+                  amet, consectetur adipisicing elit. Commodi, maiores.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Read more
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button>
+                  </div>
+                  <small class="text-muted">8 mins</small>
                 </div>
-                <small class="text-muted">8 mins</small>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- pagination -->
+    <section id="pagination" class="pb-5 mb-5">
+      <div class="container my-5">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
