@@ -3,6 +3,5 @@ body {
 }
 
 .image_resize {
-    height: 500px;
     object-fit: cover;
 }
